@@ -6,7 +6,7 @@
 
 body {
     display: flex;
-    background: #62c7ef;
+    background: #62abef;
     min-height: 100vh;
     padding: 0 10px;
     align-items: center;
@@ -15,8 +15,8 @@ body {
 
 .calendar-container {
     background: #fff;
-    width: 500px;
-    border-radius: 20px;
+    width: 450px;
+    border-radius: 10px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
 }
 
@@ -25,6 +25,7 @@ body {
     align-items: center;
     padding: 25px 30px 10px;
     justify-content: space-between;
+    background-color: #0ba6ac;
 }
 
 header .calendar-navigation {
@@ -111,9 +112,9 @@ header .calendar-current-date {
 }
 
 .calendar-dates li.active::before {
-    background: #1a95b4;
+    background: #0ba6ac;
 }
 
 .calendar-dates li:not(.active):hover::before {
-    background: #5eb0d6;
+    background: #e4e1e1;
 }
